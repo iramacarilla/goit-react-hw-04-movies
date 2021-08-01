@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 html {
@@ -24,11 +24,11 @@ html {
 }
 
 body {
-  background-color:#1e1554;
+  background-color: #1e1554;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-  
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -42,24 +42,23 @@ p {
   margin: 0;
 }
 
-.navigationLink{
+.navigationLink {
   color: black;
- }
- .navigationLink_active {
-   color: blue;
- }
- .homeImage{
-   width: 100%;
-   border-radius: 5px;
-   
- }
- .homeList {
+}
+.navigationLink_active {
+  color: blue;
+}
+.homeImage {
+  width: 100%;
+  border-radius: 5px;
+}
+.homeList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
 }
 .homeList li {
-  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.08);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
   transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -67,14 +66,19 @@ p {
   box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
 }
 .homeList li {
+  padding: 10px 0;
   margin-right: 30px;
+  margin-bottom: 30px;
+}
+.homeList li:nth-child(4n) {
+  margin-right: 0;
 }
 .homeList div {
+  margin: 0 auto;
   width: 200px;
   background-color: #27386b;
   border-radius: 5px;
   padding-bottom: 5px;
-  margin-bottom: 30px;
 }
 .homeList h2 {
   text-align: center;
@@ -86,7 +90,7 @@ p {
 .homeList a {
   text-decoration: none;
 }
-.detailsPage{
+.detailsPage {
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 0 50px;
@@ -103,16 +107,16 @@ p {
 .detailsPageRight {
   color: lemonchiffon;
 }
-.moviesImage{
-width: 50%;
+.moviesImage {
+  width: 50%;
 }
 .link {
   color: #b1abab;
-text-decoration: none;
-font-size: 20px;
+  text-decoration: none;
+  font-size: 20px;
 }
 .activeLink {
-  color: #983510;
+  color: #e5e8e7;
 }
 .linkList {
   margin-left: 50px;
@@ -133,40 +137,42 @@ font-size: 20px;
   margin-bottom: 30px;
 }
 .castItem img {
+  margin: 0 auto;
   margin-bottom: 10px;
 }
 .castItem p {
-font-size: 14px;
-margin-bottom: 5px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
-.genres  {
+.genres {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 button {
   margin-left: 50px;
-    margin-bottom: 40px;
-    border: none;
-    border-radius: 15px;
-    padding: 5px 10px;
-    box-shadow: 0 8px 6px -6px black;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-shadow: 0 8px 6px -6px black;
 }
 .searchBox {
   margin-left: 30px;
-    height: 35px;
-    width: 300px;
-    border-radius: 20px;
-    background-color: #1f0d50;
-    color: white;
+  height: 35px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #1f0d50;
+  color: white;
 }
 .reviewContext {
   padding: 30px 60px;
-    color: #e4d6c3;
-    line-height: 25px;
-    list-style: none;
+  color: #e4d6c3;
+  line-height: 25px;
+  list-style: none;
 }
-.reviewContext li{
+.reviewContext li {
   margin-bottom: 30px;
 }
 
@@ -185,13 +191,13 @@ button {
   justify-content: center;
   align-items: center;
 }
-.defaultPage img{
+.defaultPage img {
   display: block;
   margin: 0 auto;
   width: 80%;
 }
 
-.defaultPage p{
+.defaultPage p {
   color: #fff;
   text-align: center;
   font-size: 24px;
